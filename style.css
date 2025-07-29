@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Poppins", sans-serif;
   background-color: #f4f4f4;
   display: flex;
   justify-content: center;
@@ -40,4 +40,3 @@ body {
 .socials img:hover {
   transform: scale(1.2);
 }
-
