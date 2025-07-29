@@ -41,3 +41,9 @@ body {
 .socials img:hover {
   transform: scale(1.2);
 }
+
+@media (max-width: 400px) {
+  .card {
+    padding: 1rem;
+    max-width: 90%;
+  }
