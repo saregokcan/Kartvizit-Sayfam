@@ -10,7 +10,7 @@ body {
 
 .card {
   background-color: white;
-  padding: 1,5px;
+  padding: 1, 5px;
   text-align: center;
   border-radius: 1px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -19,9 +19,9 @@ body {
   margin: 0 auto;
 }
 
-.card:hover{
+.card:hover {
   transform: scale(1.03);
-  box-shadow: 0 8px 16px rgba(0, 0 ,0 0.2);
+  box-shadow: 0 8px 16px rgba(0, 0, 0 0.2);
   transition: transform 0.3s ease;
 }
 
@@ -41,8 +41,7 @@ body {
 .socials img {
   width: 30px;
   margin: 0 10px;
-  transition: transform 0.3s ease,
-              filter 0.3s ease;
+  transition: transform 0.3s ease, filter 0.3s ease;
 }
 
 .socials img:hover {
@@ -86,11 +85,12 @@ body {
     margin: 0 6px;
   }
 
-   h1 {
+  h1 {
     font-size: 1.5rem;
   }
 
-  .title, p {
+  .title,
+  p {
     font-size: 1rem;
   }
 }
