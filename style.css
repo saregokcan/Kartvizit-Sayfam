@@ -37,8 +37,12 @@ body {
 
 .title {
   color: #555;
-  font-size: 1.2rem;
+  font-size: 1rem;
   margin: 0.5rem 0;
+}
+
+h1 {
+  font-size: 1.5rem;
 }
 
 .socials img {
@@ -124,7 +128,7 @@ body {
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 480px) {
   .card {
     width: 90%;
     padding: 1.5rem;
@@ -136,7 +140,7 @@ body {
   }
 
   .socials img {
-    width: 25px;
+    width: 26px;
     margin: 0 6px;
   }
 
