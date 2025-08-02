@@ -89,6 +89,10 @@ body {
   transition: background-color 0.3s ease;
 }
 
+.content-button:hover {
+  background-color: #0056b3;
+}
+
 @keyframes slide-up {
   from {
     transform: translateY(50px);
