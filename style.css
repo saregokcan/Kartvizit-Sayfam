@@ -60,19 +60,23 @@ body {
 }
 
 .content-button {
-  display: flex;
-  padding: 1rem;
+   display: flex;
+  align-items: center;
+  gap: 6px;
   padding: 0.4rem 0.8rem;
   background-color: #007bff;
   color: white;
-  border-radius: 8px;
+  border-radius: 6px;
   font-size: 0.9rem;
   text-decoration: none;
-  margin-top: 10px;
   font-weight: 500;
   transition: background-color 0.3s ease, transform 0.2s ease;
-height: 30px;
-align-items: center;
+  height: 30px;
+}
+
+.contact-button img {
+  width: 20px;
+  height: 20px;
 }
 
 .content-button:hover {
