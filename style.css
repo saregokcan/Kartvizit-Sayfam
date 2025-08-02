@@ -79,18 +79,21 @@ body {
 
 .content-button {
   display: inline-block;
-  padding: 1.5rem;;
+  padding: 1rem;
+  padding: 0.4rem 0.8rem;
   background-color: #007bff;
   color: white;
-  text-decoration: none;
   border-radius: 8px;
+  font-size: 0.9rem;
+  text-decoration: none;
   margin-top: 10px;
-  font-weight: bold;
-  transition: background-color 0.3s ease;
+  font-weight: 500;
+  transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
 .content-button:hover {
   background-color: #0056b3;
+  transform: scale(1.05)
 }
 
 @keyframes slide-up {
